@@ -5,6 +5,6 @@ Pour le RAID 2014
 ### Installation
 
 > npm install
-> grunt serve
+> node plugin/notes-server
 
 's' to display notes

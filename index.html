@@ -49,7 +49,8 @@
 						<small>Created by <a href="http://codecuisine.io/" target="_blank">Richard</a> / <a href="http://twitter.com/richard_tetaz" target="_blank">@richard_tetaz</a></small>
 					</p>
 					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes window (hit 's' on your keyboard).
+						Qui je suis ?
+						Age, Ecole, Metier, Passion
 					</aside>
 				</section>
 
@@ -103,6 +104,7 @@
 						<li>HTML5</li>
 						<li>PHP5, Codeigniter, Laravel4</li>
 						<li>Javascript - PrototypeJS, jQuery, AngularJS</li>
+						<li>NodeJS</li>
 						<li>CSS3, Less, font icon</li>
 						<li>Git, SVN</li>
 						<li>Python</li>
@@ -112,7 +114,7 @@
 				</section>
 
 				<section>
-					<h1>Methodologie</h1>
+					<h1>Methodes</h1>
 					<h2>Comment ?</h2>
 					<ol>
 						<li>Concept mockup</li>
@@ -143,12 +145,18 @@
 						<li>Github</li>
 						<li>Reveal.js</li>
 					</ul>
+					<aside class="notes">
+						Merci et ce que j'ai utilise
+					</aside>
 				</section>
 
 				<section>
 					<h1 class="tc mbl">Questions ?</h1>
 					<p>Catch me on twitter <a href="https://twitter.com/richard_tetaz" title="@richard_tetaz on twitter" target="_blank">@richard_tetaz</a></p>
 					<p><a href="https://github.com/InfomaniakNetwork/presentation" title="presentation" target="_blank">InfomaniakNetwork/presentation</a></p>
+					<aside class="notes">
+						Des questions ?
+					</aside>
 				</section>
 
 			</div>
@@ -182,7 +190,9 @@
 					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'socket.io/socket.io.js', async: true },
+        			{ src: 'plugin/notes-server/client.js', async: true }
 				]
 			});
 
