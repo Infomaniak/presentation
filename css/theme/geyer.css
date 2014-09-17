@@ -4,11 +4,11 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #8199af;
-  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#8199af), color-stop(75%,#b8c3ce), color-stop(100%,#e3eaed));
-  background: -webkit-linear-gradient(45deg, #8199af 0%,#b8c3ce 75%,#e3eaed 100%);
-  background: -webkit-linear-gradient(45deg, #8199af 0%, #b8c3ce 75%, #e3eaed 100%);
-  background: linear-gradient(45deg, #8199af 0%,#b8c3ce 75%,#e3eaed 100%);
+  background: #d9edf7;
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#d9edf7), color-stop(75%,#0088CC), color-stop(100%,#005580));
+  background: -webkit-linear-gradient(45deg, #d9edf7 0%,#0088CC 75%,#005580 100%);
+  background: -webkit-linear-gradient(45deg, #d9edf7 0%, #0088CC 75%, #005580 100%);
+  background: linear-gradient(45deg, #d9edf7 0%,#0088CC 75%,#005580 100%);
 }
 
 b, strong, dt {
