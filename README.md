@@ -8,3 +8,8 @@ Pour le RAID 2014
 > node plugin/notes-server
 
 's' to display notes
+
+### TODO
+
+[ ] Ajouter des photos
+[ ] Completer les commentaires
